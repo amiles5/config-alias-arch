@@ -1,0 +1,16 @@
+{
+  "name": "ApiDataValidationError",
+  "message": "Supplied data is not valid",
+  "validationErrors": [
+    {
+      "code": "OBJECT_ADDITIONAL_PROPERTIES",
+      "message": "Additional properties not allowed",
+      "path": "#/",
+      "params": {
+        "properties": [
+          "amp;w"
+        ]
+      }
+    }
+  ]
+}
