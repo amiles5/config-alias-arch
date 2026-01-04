@@ -11,3 +11,4 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 fastfetch
 alias config='/usr/bin/git --git-dir=/home/milesj/.cfg/ --work-tree=/home/milesj'
+eval "$(oh-my-posh init bash)"
