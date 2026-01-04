@@ -4,6 +4,7 @@ catppuccin-gtk-theme-mocha
 grimblast-git
 joplin-bin
 noctalia-shell
+oh-my-posh
 paru
 paru-debug
 pyprland
