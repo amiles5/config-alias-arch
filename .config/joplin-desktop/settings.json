@@ -1,7 +1,9 @@
 {
 	"$schema": "https://joplinapp.org/schema/settings.json",
 	"altInstanceId": "",
+	"editor.codeView": false,
 	"sync.target": 7,
+	"richTextBannerDismissed": true,
 	"locale": "en_GB",
 	"theme": 1,
 	"markdown.plugin.softbreaks": false,
