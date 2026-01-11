@@ -9375,3 +9375,679 @@ FetchError: request to https://content.dropboxapi.com/2/files/download failed, r
 2026-01-06 09:28:23: Updating items_normalized from {"updated_time":1767630848232,"id":"f7d68b7949144b528a46caf11d3e7642"}
 2026-01-06 09:28:23: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
 2026-01-06 09:28:23: Performance: SearchEngine/syncTables: End at 61322.81s (took 104.3ms)
+2026-01-11 09:30:15: App: Profile directory: /home/milesj/.config/joplin-desktop
+2026-01-11 09:30:15: App: Root profile directory: /home/milesj/.config/joplin-desktop
+2026-01-11 09:30:15: Database was open successfully
+2026-01-11 09:30:15: Checking for database schema update...
+2026-01-11 09:30:15: Current database version {"version":49,"table_fields_version":49}
+2026-01-11 09:30:15: Upgrading database from version 49
+2026-01-11 09:30:15: New version: 49. Previously recorded version: 49
+2026-01-11 09:30:15: KeychainService: Driver unsupported:electron-safeStorage
+2026-01-11 09:30:15: KeychainService: Driver unsupported:node-keytar
+2026-01-11 09:30:15: KeychainService: checking if keychain supported
+2026-01-11 09:30:15: KeychainService: check was already done - skipping. Supported: 0
+2026-01-11 09:30:15: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2026-01-11 09:30:15: handleSyncStartupOperation: Processing operation: 0
+2026-01-11 09:30:15: App: Client ID: 42b429658b2b4f679c391fa1c8beb826
+2026-01-11 09:30:15: models/Setting: Applying default migrations...
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:15: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2026-01-11 09:30:15: ResourceFetcher: Auto-added resources: 0
+2026-01-11 09:30:15: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2026-01-11 09:30:15: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:15: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: app.start: doing regular boot
+2026-01-11 09:30:15: App: Setting up auto-updater service...
+2026-01-11 09:30:15: OcrService: Starting background service...
+2026-01-11 09:30:15: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: App: "syncInfoCache" was changed - setting up encryption related code
+2026-01-11 09:30:15: e2ee/utils: Trying to load 0 master keys...
+2026-01-11 09:30:15: e2ee/utils: Loaded master keys: 0
+2026-01-11 09:30:15: OcrService: Found 0 resources to process...
+2026-01-11 09:30:15: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2026-01-11 09:30:15: PluginService: Loading plugin from /home/milesj/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2026-01-11 09:30:15: PluginService: Loading plugin from /home/milesj/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2026-01-11 09:30:15: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2026-01-11 09:30:15: Performance: app/start: End at 1.09s (took 179.7ms)
+2026-01-11 09:30:15: Performance: main: End at 1.24s (took 0.35s)
+2026-01-11 09:30:15: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2026-01-11 09:30:15: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2026-01-11 09:30:16: useFormNote: Sync has finished and note has never been changed - reloading it
+2026-01-11 09:30:16: OcrService: 0 resources have been processed.
+2026-01-11 09:30:16: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 466ms)
+2026-01-11 09:30:16: Preparing scheduled sync
+2026-01-11 09:30:16: Saving updated Dropbox auth.
+2026-01-11 09:30:16: Starting scheduled sync
+2026-01-11 09:30:16: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768123816604]
+2026-01-11 09:30:16: Synchronizer: Indexing resources...
+2026-01-11 09:30:16: ResourceService::indexNoteResources: Start
+2026-01-11 09:30:16: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:30:16: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 705ms)
+2026-01-11 09:30:16: Performance: ResourceService/indexNoteResources: End at 2.14s (took 111.6ms)
+2026-01-11 09:30:16: ResourceService::indexNoteResources: Completed
+2026-01-11 09:30:16: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"ed5b34461b204da3a2b484c72e173318","windowId":"default"}
+2026-01-11 09:30:17: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:30:17: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:30:17: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:30:18: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 266eac590fec4e74bfe8ff8a6c4244ee): (Remote 266eac590fec4e74bfe8ff8a6c4244ee.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["266eac590fec4e74bfe8ff8a6c4244ee"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["81d516da897146fa90fbec26d5d95531"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local f6cea9d83d694b47bf6910413b80063a): (Remote f6cea9d83d694b47bf6910413b80063a.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["f6cea9d83d694b47bf6910413b80063a"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["974eed74b5474e829b73d796c22b96c2","bcef23ff89614da0b73a262fa3f51540"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 70ee4987f3144a4fb57b3058e9a6ae6f): (Remote 70ee4987f3144a4fb57b3058e9a6ae6f.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["70ee4987f3144a4fb57b3058e9a6ae6f"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["5ff641376920453eadfe2472663de3fb"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local e5581b2fb54549b49705db57442e693d): (Remote e5581b2fb54549b49705db57442e693d.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["e5581b2fb54549b49705db57442e693d"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["9c4ecf0d88b24dd89be3fd21a640e446"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local fb30ec2568fb499dbe206b3ac0cdde56): (Remote fb30ec2568fb499dbe206b3ac0cdde56.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["fb30ec2568fb499dbe206b3ac0cdde56"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Repair Summary"]; Item IDs: ["96fd9e9afff04bc6a89f32dabbcfa389"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 728e514d104743e98f0cb7c4b4bbbaf7): (Remote 728e514d104743e98f0cb7c4b4bbbaf7.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["DGA4135"]; Item IDs: ["728e514d104743e98f0cb7c4b4bbbaf7"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["DGA4135"]; Item IDs: ["0e55b8073c6b4ee1bc95f58c632577d6"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local cb22bbfee84e4c59be5917d6e11073d1): (Remote cb22bbfee84e4c59be5917d6e11073d1.md)
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Trooli PPP"]; Item IDs: ["cb22bbfee84e4c59be5917d6e11073d1"]
+2026-01-11 09:30:18: DeleteAction: sync: deleteLocal: titles: ["Trooli PPP"]; Item IDs: ["9d6f20b97ae5427b9325b652ee0ba3a5","ccf56be25e8840bb925af36f92bb6d86"]
+2026-01-11 09:30:18: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:18: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 5db9b055af8d42e69bd36f0d6cc42917): (Remote 5db9b055af8d42e69bd36f0d6cc42917.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["Tp-Link Router BE550"]; Item IDs: ["5db9b055af8d42e69bd36f0d6cc42917"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["Tp-Link Router BE550"]; Item IDs: ["67b0e4c2fa0c4f26b08ceee7cde7949b","6bfdbeddabd047d1ba9e37abee1c1fc8"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local ee53dcf0b86f4fa6af89f61955631802): (Remote ee53dcf0b86f4fa6af89f61955631802.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["5. Joplin Privacy Policy"]; Item IDs: ["ee53dcf0b86f4fa6af89f61955631802"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["5. Joplin Privacy Policy"]; Item IDs: ["393d6ee6bca34345a7d100c317af58ae"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local a3fffed51cf24e8b9af42044b22fd1a6): (Remote a3fffed51cf24e8b9af42044b22fd1a6.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["4. Tips"]; Item IDs: ["a3fffed51cf24e8b9af42044b22fd1a6"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["4. Tips"]; Item IDs: ["14116374286842fd97248fbdb458c58d"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 4fda6c8e10194f3ab9bb7155eb71a355): (Remote 4fda6c8e10194f3ab9bb7155eb71a355.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["3. Synchronising your notes"]; Item IDs: ["4fda6c8e10194f3ab9bb7155eb71a355"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["3. Synchronising your notes"]; Item IDs: ["6224c6fe8eed481bb40cee8511165007"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local d383cde4e1424ab5b570a32a6050a133): (Remote d383cde4e1424ab5b570a32a6050a133.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["2. Importing and exporting notes"]; Item IDs: ["d383cde4e1424ab5b570a32a6050a133"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["2. Importing and exporting notes"]; Item IDs: ["6a8cdf439b2142b2b6e0d35c12850bc5"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local d2f80d50a9b7423f8bd8b5e89232a66b): (Remote d2f80d50a9b7423f8bd8b5e89232a66b.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["1. Welcome to Joplin!"]; Item IDs: ["d2f80d50a9b7423f8bd8b5e89232a66b"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["1. Welcome to Joplin!"]; Item IDs: ["01be4ec08f714936bb78c10621f9da8f"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local a73e67cf3b9b42d1a2e7960dc8564f3b): (Remote a73e67cf3b9b42d1a2e7960dc8564f3b.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["1. Welcome to Joplin!"]; Item IDs: ["a73e67cf3b9b42d1a2e7960dc8564f3b"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["1. Welcome to Joplin!"]; Item IDs: ["54cee3e3264343deb5f142c032162910"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local ed36e6f061904c0ea694f918b5753fd9): (Remote ed36e6f061904c0ea694f918b5753fd9.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["2. Importing and exporting notes"]; Item IDs: ["ed36e6f061904c0ea694f918b5753fd9"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["2. Importing and exporting notes"]; Item IDs: ["0bb8065fea4643c1ba9a6877bf8193c8"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local a52c86482cc14590b7f5e4ad4fad481d): (Remote a52c86482cc14590b7f5e4ad4fad481d.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["3. Synchronising your notes"]; Item IDs: ["a52c86482cc14590b7f5e4ad4fad481d"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["3. Synchronising your notes"]; Item IDs: ["6235b5259cd4449984f97af334ac4c5c"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 6228f1bce5a94a62a3a5f8f4e6af9bfb): (Remote 6228f1bce5a94a62a3a5f8f4e6af9bfb.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["4. Tips"]; Item IDs: ["6228f1bce5a94a62a3a5f8f4e6af9bfb"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["4. Tips"]; Item IDs: ["9b34cdf5108c41c894a1dd7a83b84b7c"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Note: (Local 048c54e4ad504c29bb19b6277a09b97d): (Remote 048c54e4ad504c29bb19b6277a09b97d.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["5. Joplin Privacy Policy"]; Item IDs: ["048c54e4ad504c29bb19b6277a09b97d"]
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: titles: ["5. Joplin Privacy Policy"]; Item IDs: ["19d5330f4da542a88209d39d22992f86"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 19d5330f4da542a88209d39d22992f86): (Remote 19d5330f4da542a88209d39d22992f86.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["19d5330f4da542a88209d39d22992f86"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 9b34cdf5108c41c894a1dd7a83b84b7c): (Remote 9b34cdf5108c41c894a1dd7a83b84b7c.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["9b34cdf5108c41c894a1dd7a83b84b7c"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 6235b5259cd4449984f97af334ac4c5c): (Remote 6235b5259cd4449984f97af334ac4c5c.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["6235b5259cd4449984f97af334ac4c5c"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 0bb8065fea4643c1ba9a6877bf8193c8): (Remote 0bb8065fea4643c1ba9a6877bf8193c8.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["0bb8065fea4643c1ba9a6877bf8193c8"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 54cee3e3264343deb5f142c032162910): (Remote 54cee3e3264343deb5f142c032162910.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["54cee3e3264343deb5f142c032162910"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 01be4ec08f714936bb78c10621f9da8f): (Remote 01be4ec08f714936bb78c10621f9da8f.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["01be4ec08f714936bb78c10621f9da8f"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 6a8cdf439b2142b2b6e0d35c12850bc5): (Remote 6a8cdf439b2142b2b6e0d35c12850bc5.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["6a8cdf439b2142b2b6e0d35c12850bc5"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 6224c6fe8eed481bb40cee8511165007): (Remote 6224c6fe8eed481bb40cee8511165007.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["6224c6fe8eed481bb40cee8511165007"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 14116374286842fd97248fbdb458c58d): (Remote 14116374286842fd97248fbdb458c58d.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["14116374286842fd97248fbdb458c58d"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 393d6ee6bca34345a7d100c317af58ae): (Remote 393d6ee6bca34345a7d100c317af58ae.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["393d6ee6bca34345a7d100c317af58ae"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 67b0e4c2fa0c4f26b08ceee7cde7949b): (Remote 67b0e4c2fa0c4f26b08ceee7cde7949b.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["67b0e4c2fa0c4f26b08ceee7cde7949b"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 9d6f20b97ae5427b9325b652ee0ba3a5): (Remote 9d6f20b97ae5427b9325b652ee0ba3a5.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["9d6f20b97ae5427b9325b652ee0ba3a5"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 6bfdbeddabd047d1ba9e37abee1c1fc8): (Remote 6bfdbeddabd047d1ba9e37abee1c1fc8.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["6bfdbeddabd047d1ba9e37abee1c1fc8"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local ccf56be25e8840bb925af36f92bb6d86): (Remote ccf56be25e8840bb925af36f92bb6d86.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["ccf56be25e8840bb925af36f92bb6d86"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 0e55b8073c6b4ee1bc95f58c632577d6): (Remote 0e55b8073c6b4ee1bc95f58c632577d6.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["0e55b8073c6b4ee1bc95f58c632577d6"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 81d516da897146fa90fbec26d5d95531): (Remote 81d516da897146fa90fbec26d5d95531.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["81d516da897146fa90fbec26d5d95531"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 974eed74b5474e829b73d796c22b96c2): (Remote 974eed74b5474e829b73d796c22b96c2.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["974eed74b5474e829b73d796c22b96c2"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 5ff641376920453eadfe2472663de3fb): (Remote 5ff641376920453eadfe2472663de3fb.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["5ff641376920453eadfe2472663de3fb"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 9c4ecf0d88b24dd89be3fd21a640e446): (Remote 9c4ecf0d88b24dd89be3fd21a640e446.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["9c4ecf0d88b24dd89be3fd21a640e446"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local 96fd9e9afff04bc6a89f32dabbcfa389): (Remote 96fd9e9afff04bc6a89f32dabbcfa389.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["96fd9e9afff04bc6a89f32dabbcfa389"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Revision: (Local bcef23ff89614da0b73a262fa3f51540): (Remote bcef23ff89614da0b73a262fa3f51540.md)
+2026-01-11 09:30:19: DeleteAction: sync: deleteLocal: ; Item IDs: ["bcef23ff89614da0b73a262fa3f51540"]
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Folder: (Local af6d382a17074db3a127ef49235560a1): (Remote af6d382a17074db3a127ef49235560a1.md)
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: Synchronizer: Sync: deleteLocal: remote has been deleted: Folder: (Local 0fe8963d3ca84e1980d5a5df6041b603): (Remote 0fe8963d3ca84e1980d5a5df6041b603.md)
+2026-01-11 09:30:19: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:19: RevisionService: maintenance: Starting...
+2026-01-11 09:30:19: RevisionService: maintenance: Service is enabled
+2026-01-11 09:30:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-11 09:30:19: RevisionService: maintenance: Done in 103ms
+2026-01-11 09:30:22: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 627046b304da4d78a21a787f7c854b2e.md)
+2026-01-11 09:30:22: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:22: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:22: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 5cd72dd2a81c4aec806545f0a4d33d89.md)
+2026-01-11 09:30:22: OcrService: Found 0 resources to process...
+2026-01-11 09:30:22: ResourceFetcher: Auto-added resources: 1
+2026-01-11 09:30:22: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:22: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:22: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:22: ResourceFetcher: Auto-added resources: 2
+2026-01-11 09:30:22: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:22: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 434267ab819b4e4a9c1d5303ff4afdfd.md)
+2026-01-11 09:30:22: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:22: ResourceFetcher: Auto-added resources: 0
+2026-01-11 09:30:22: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:22: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:22: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:22: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 34b25988e2c3459c82aa9b5d446e87f5.md)
+2026-01-11 09:30:22: ResourceFetcher: Auto-added resources: 1
+2026-01-11 09:30:22: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:22: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:22: OcrService: 0 resources have been processed.
+2026-01-11 09:30:22: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:22: ResourceFetcher: Auto-added resources: 0
+2026-01-11 09:30:22: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:22: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 7e94054c53744f31a8fb304f9d60b992.md)
+2026-01-11 09:30:22: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 82648c3a7d6d45f1a1ec484a74c26f1a.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote cfe80ff4a9344d09bea713cd810714d7.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 66b2cea4c6be4fb6b535d8cf4c589672.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote e0125cb4872f4ff89601c3d951f06c44.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 5593d6949ec84d729150712b51f69e03.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: ResourceFetcher: Auto-add resources: Mode: always
+2026-01-11 09:30:23: ResourceFetcher: Auto-added resources: 0
+2026-01-11 09:30:23: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 68bc335fa2b44e778fef07357eb427c8.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 80a6d35236eb47458d27b64385bc8dd8.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 24025c4bb24a469a93817f895ddf2480.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 3ef499540436401e9fad1888db65bbff.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:23: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 8fc08da9d32143e2a2432770fd3ab37c.md)
+2026-01-11 09:30:23: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote c66b8da1760d422ba7cfbd18f696e61d.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 7cc8cbf040d3483eb117b7f36b28ac4f.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 986400040a104aee9d3716e654612c9a.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote a5e12223833840ceb91d46e269efc0a7.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 59f03fb1cac3431a9202d08a7a681d05.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote eb651e5f605f4dfa8bb8aaedee63228f.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 3516d80000144fa4b2cef001803bedee.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 99f3eff50d9b4a3496f70ab29053946f.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote d4f1387ec50942ff9dd76eb059607c6c.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:24: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 261228e4b09e4e659e5a352e3bdf90ca.md)
+2026-01-11 09:30:24: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:25: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 9514a827576944c4bdd468eb3076da76.md)
+2026-01-11 09:30:25: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:25: SearchEngine: Updating FTS table...
+2026-01-11 09:30:25: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote d8556deec5d746ceb69b8f87726d4705.md)
+2026-01-11 09:30:25: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:30:25: Synchronizer: Sync: createLocal: remote exists but local does not: (Remote 98f43c2fff6940a88fedb867059e0a2f.md)
+2026-01-11 09:30:25: Updating items_normalized from {"updated_time":1767630848232,"id":"f7d68b7949144b528a46caf11d3e7642"}
+2026-01-11 09:30:25: DeleteAction: Sync: folder title: "Welcome!"; Item IDs: ["af6d382a17074db3a127ef49235560a1"]
+2026-01-11 09:30:25: DeleteAction: Sync: folder title: "Welcome!"; Item IDs: ["0fe8963d3ca84e1980d5a5df6041b603"]
+2026-01-11 09:30:25: Synchronizer: Sync: finished: Synchronisation finished [1768123816604]
+2026-01-11 09:30:25: Synchronizer: Operations completed: 
+2026-01-11 09:30:25: Synchronizer: fetchingTotal: 75
+2026-01-11 09:30:25: Synchronizer: fetchingProcessed: 75
+2026-01-11 09:30:25: Synchronizer: deleteLocal: 41
+2026-01-11 09:30:25: Synchronizer: createLocal: 28
+2026-01-11 09:30:25: Synchronizer: Total folders: 1
+2026-01-11 09:30:25: Synchronizer: Total notes: 58
+2026-01-11 09:30:25: Synchronizer: Total resources: 216
+2026-01-11 09:30:25: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:30:25: Updating all notifications...
+2026-01-11 09:30:25: Garbage collecting alarms...
+2026-01-11 09:30:25: SearchEngine: Updated FTS table in 170ms. Inserted: 3. Deleted: 18
+2026-01-11 09:30:25: Performance: SearchEngine/syncTables: End at 11.22s (took 0.27s)
+2026-01-11 09:30:26: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:30:31: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2026-01-11 09:30:34: RepositoryApi: findWorkingMirror: Using: https://raw.githubusercontent.com/joplin/plugins/master
+2026-01-11 09:30:45: ResourceService::indexNoteResources: Start
+2026-01-11 09:30:46: Performance: ResourceService/indexNoteResources: End at 31.49s (took 0.49s)
+2026-01-11 09:30:46: ResourceService::indexNoteResources: Completed
+2026-01-11 09:30:46: ResourceService::deleteOrphanResources: []
+2026-01-11 09:30:56: SearchEngine: Updating FTS table...
+2026-01-11 09:30:56: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:30:56: SearchEngine: Updated FTS table in 41ms. Inserted: 1. Deleted: 0
+2026-01-11 09:30:56: Performance: SearchEngine/syncTables: End at 41.63s (took 142.2ms)
+2026-01-11 09:31:11: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"ed5b34461b204da3a2b484c72e173318","windowId":"default"}
+2026-01-11 09:31:11: useFormNote: Sync has finished and note has never been changed - reloading it
+2026-01-11 09:31:23: routes/notes: Images: {"https://www.circlehealthgroup.co.uk/-/media/circle/spotlights/image-spotlights/new---paying-for-your-treatment.jpg?rev=b9601a4208f24409933bd5c171ff4a62&webp=true&h=210&iar=1&w=416&crop=1&hash=39AEE6681BFAEC5B292A3DA3E23AC4DE":[{"width":222,"height":112,"naturalWidth":416,"naturalHeight":210}],"https://www.circlehealthgroup.co.uk/-/media/circle/spotlights/image-spotlights/new---pay-with-health-insurance.jpg?rev=5aa6e363b42742b9b8bfe23c918c5729&webp=true&h=210&iar=1&w=416&crop=1&hash=B049A261F2E63762E3011D7A84751FE2":[{"width":222,"height":112,"naturalWidth":416,"naturalHeight":210}],"https://www.circlehealthgroup.co.uk/-/media/circle/spotlights/image-spotlights/new---spread-the-cost.jpg?rev=3b74eee60f1b4792819adbbd574296f9&webp=true&h=210&iar=1&w=416&crop=1&hash=B4042B87ECC05796E417BA96D39AAE04":[{"width":222,"height":112,"naturalWidth":416,"naturalHeight":210}],"https://www.circlehealthgroup.co.uk/-/media/circle/logo/cyber_essentials_plus___uk_cyber_security_group_ltd.png?rev=034b5c3770804d16a5de6299e274e394&webp=true":[{"width":89,"height":42,"naturalWidth":450,"naturalHeight":213}]}
+2026-01-11 09:31:23: routes/notes: Request (1768123883606): Downloading media files: 0
+2026-01-11 09:31:23: routes/notes: Media files allowed to be downloaded: Infinity
+2026-01-11 09:31:23: routes/notes: Request (1768123883606): Creating resources from paths (resizing images): 0
+2026-01-11 09:31:23: routes/notes: Request (1768123883606): Deleting temporary files
+2026-01-11 09:31:23: routes/notes: Request (1768123883606): Replacing urls by resources
+2026-01-11 09:31:23: routes/notes: Request (1768123883606): Saving note...
+2026-01-11 09:31:23: routes/notes: Request (1768123883606): Created note dcc2f26adb8b4e599167df32e81e534b
+2026-01-11 09:31:26: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"dcc2f26adb8b4e599167df32e81e534b","windowId":"default"}
+2026-01-11 09:31:33: SearchEngine: Updating FTS table...
+2026-01-11 09:31:33: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:31:33: SearchEngine: Updated FTS table in 22ms. Inserted: 1. Deleted: 0
+2026-01-11 09:31:33: Performance: SearchEngine/syncTables: End at 79.17s (took 122.3ms)
+2026-01-11 09:31:38: Preparing scheduled sync
+2026-01-11 09:31:38: Starting scheduled sync
+2026-01-11 09:31:38: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768123898629]
+2026-01-11 09:31:38: Synchronizer: Indexing resources...
+2026-01-11 09:31:38: ResourceService::indexNoteResources: Start
+2026-01-11 09:31:38: Performance: ResourceService/indexNoteResources: End at 84.17s (took 120.4ms)
+2026-01-11 09:31:38: ResourceService::indexNoteResources: Completed
+2026-01-11 09:31:39: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:31:39: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:31:39: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:31:39: Synchronizer: Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local dcc2f26adb8b4e599167df32e81e534b)
+2026-01-11 09:31:40: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 09:31:40: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 09:31:40: Synchronizer: Sync: finished: Synchronisation finished [1768123898629]
+2026-01-11 09:31:40: Synchronizer: Operations completed: 
+2026-01-11 09:31:40: Synchronizer: createRemote: 1
+2026-01-11 09:31:40: Synchronizer: Total folders: 1
+2026-01-11 09:31:40: Synchronizer: Total notes: 59
+2026-01-11 09:31:40: Synchronizer: Total resources: 216
+2026-01-11 09:31:40: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:31:48: SearchEngine: Updating FTS table...
+2026-01-11 09:31:48: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:31:48: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
+2026-01-11 09:31:48: Performance: SearchEngine/syncTables: End at 94.27s (took 104.2ms)
+2026-01-11 09:35:16: OcrService: Found 0 resources to process...
+2026-01-11 09:35:16: OcrService: 0 resources have been processed.
+2026-01-11 09:36:40: Running background sync on timer...
+2026-01-11 09:36:40: Preparing scheduled sync
+2026-01-11 09:36:40: Starting scheduled sync
+2026-01-11 09:36:40: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768124200147]
+2026-01-11 09:36:40: Synchronizer: Indexing resources...
+2026-01-11 09:36:40: ResourceService::indexNoteResources: Start
+2026-01-11 09:36:40: Performance: ResourceService/indexNoteResources: End at 385.67s (took 102.7ms)
+2026-01-11 09:36:40: ResourceService::indexNoteResources: Completed
+2026-01-11 09:36:40: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:36:40: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:36:40: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:36:40: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 09:36:40: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 09:36:41: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 09:36:41: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 09:36:41: Synchronizer: Sync: fetchingProcessed: Processing fetched item
+2026-01-11 09:36:42: Synchronizer: Sync: finished: Synchronisation finished [1768124200147]
+2026-01-11 09:36:42: Synchronizer: Operations completed: 
+2026-01-11 09:36:42: Synchronizer: fetchingTotal: 1
+2026-01-11 09:36:42: Synchronizer: fetchingProcessed: 1
+2026-01-11 09:36:42: Synchronizer: Total folders: 1
+2026-01-11 09:36:42: Synchronizer: Total notes: 59
+2026-01-11 09:36:42: Synchronizer: Total resources: 216
+2026-01-11 09:36:42: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:36:43: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:36:50: SearchEngine: Updating FTS table...
+2026-01-11 09:36:50: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:36:50: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
+2026-01-11 09:36:50: Performance: SearchEngine/syncTables: End at 395.78s (took 105ms)
+2026-01-11 09:40:15: RevisionService: maintenance: Starting...
+2026-01-11 09:40:15: RevisionService: maintenance: Service is enabled
+2026-01-11 09:40:15: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-11 09:40:15: RevisionService: maintenance: Done in 120ms
+2026-01-11 09:40:16: OcrService: Found 0 resources to process...
+2026-01-11 09:40:16: OcrService: 0 resources have been processed.
+2026-01-11 09:41:42: Running background sync on timer...
+2026-01-11 09:41:42: Preparing scheduled sync
+2026-01-11 09:41:42: Starting scheduled sync
+2026-01-11 09:41:42: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768124502687]
+2026-01-11 09:41:42: Synchronizer: Indexing resources...
+2026-01-11 09:41:42: ResourceService::indexNoteResources: Start
+2026-01-11 09:41:42: Performance: ResourceService/indexNoteResources: End at 688.21s (took 103ms)
+2026-01-11 09:41:42: ResourceService::indexNoteResources: Completed
+2026-01-11 09:41:43: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:41:43: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:41:43: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:41:43: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 09:41:43: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 09:41:44: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 09:41:44: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 09:41:44: Synchronizer: Sync: finished: Synchronisation finished [1768124502687]
+2026-01-11 09:41:44: Synchronizer: Operations completed: 
+2026-01-11 09:41:44: Synchronizer: fetchingTotal: -
+2026-01-11 09:41:44: Synchronizer: Total folders: 1
+2026-01-11 09:41:44: Synchronizer: Total notes: 59
+2026-01-11 09:41:44: Synchronizer: Total resources: 216
+2026-01-11 09:41:44: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:41:45: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:41:52: SearchEngine: Updating FTS table...
+2026-01-11 09:41:52: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:41:52: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 09:41:52: Performance: SearchEngine/syncTables: End at 698.32s (took 102.8ms)
+2026-01-11 09:45:16: OcrService: Found 0 resources to process...
+2026-01-11 09:45:16: OcrService: 0 resources have been processed.
+2026-01-11 09:46:44: Running background sync on timer...
+2026-01-11 09:46:44: Preparing scheduled sync
+2026-01-11 09:46:44: Starting scheduled sync
+2026-01-11 09:46:44: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768124804440]
+2026-01-11 09:46:44: Synchronizer: Indexing resources...
+2026-01-11 09:46:44: ResourceService::indexNoteResources: Start
+2026-01-11 09:46:44: Performance: ResourceService/indexNoteResources: End at 989.96s (took 102ms)
+2026-01-11 09:46:44: ResourceService::indexNoteResources: Completed
+2026-01-11 09:46:45: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:46:45: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:46:45: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:46:45: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 09:46:45: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 09:46:46: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 09:46:46: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 09:46:46: Synchronizer: Sync: finished: Synchronisation finished [1768124804440]
+2026-01-11 09:46:46: Synchronizer: Operations completed: 
+2026-01-11 09:46:46: Synchronizer: fetchingTotal: -
+2026-01-11 09:46:46: Synchronizer: Total folders: 1
+2026-01-11 09:46:46: Synchronizer: Total notes: 59
+2026-01-11 09:46:46: Synchronizer: Total resources: 216
+2026-01-11 09:46:46: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:46:47: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:46:54: SearchEngine: Updating FTS table...
+2026-01-11 09:46:54: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:46:54: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 09:46:54: Performance: SearchEngine/syncTables: End at 1000.07s (took 102ms)
+2026-01-11 09:50:15: RevisionService: maintenance: Starting...
+2026-01-11 09:50:15: RevisionService: maintenance: Service is enabled
+2026-01-11 09:50:15: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-11 09:50:15: RevisionService: maintenance: Done in 104ms
+2026-01-11 09:50:16: OcrService: Found 0 resources to process...
+2026-01-11 09:50:16: OcrService: 0 resources have been processed.
+2026-01-11 09:51:46: Running background sync on timer...
+2026-01-11 09:51:46: Preparing scheduled sync
+2026-01-11 09:51:46: Starting scheduled sync
+2026-01-11 09:51:46: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768125106264]
+2026-01-11 09:51:46: Synchronizer: Indexing resources...
+2026-01-11 09:51:46: ResourceService::indexNoteResources: Start
+2026-01-11 09:51:46: Performance: ResourceService/indexNoteResources: End at 1291.79s (took 101.9ms)
+2026-01-11 09:51:46: ResourceService::indexNoteResources: Completed
+2026-01-11 09:51:47: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:51:47: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:51:47: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:51:47: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 09:51:47: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 09:51:47: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 09:51:47: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 09:51:47: Synchronizer: Sync: finished: Synchronisation finished [1768125106264]
+2026-01-11 09:51:47: Synchronizer: Operations completed: 
+2026-01-11 09:51:47: Synchronizer: fetchingTotal: -
+2026-01-11 09:51:47: Synchronizer: Total folders: 1
+2026-01-11 09:51:47: Synchronizer: Total notes: 59
+2026-01-11 09:51:47: Synchronizer: Total resources: 216
+2026-01-11 09:51:47: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:51:49: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:51:56: SearchEngine: Updating FTS table...
+2026-01-11 09:51:56: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:51:56: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 09:51:56: Performance: SearchEngine/syncTables: End at 1301.9s (took 103.8ms)
+2026-01-11 09:55:16: OcrService: Found 0 resources to process...
+2026-01-11 09:55:16: OcrService: 0 resources have been processed.
+2026-01-11 09:56:48: Running background sync on timer...
+2026-01-11 09:56:48: Preparing scheduled sync
+2026-01-11 09:56:48: Starting scheduled sync
+2026-01-11 09:56:48: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768125408023]
+2026-01-11 09:56:48: Synchronizer: Indexing resources...
+2026-01-11 09:56:48: ResourceService::indexNoteResources: Start
+2026-01-11 09:56:48: Performance: ResourceService/indexNoteResources: End at 1593.55s (took 103.3ms)
+2026-01-11 09:56:48: ResourceService::indexNoteResources: Completed
+2026-01-11 09:56:48: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:56:48: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 09:56:48: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 09:56:48: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 09:56:48: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 09:56:49: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 09:56:49: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 09:56:49: Synchronizer: Sync: finished: Synchronisation finished [1768125408023]
+2026-01-11 09:56:49: Synchronizer: Operations completed: 
+2026-01-11 09:56:49: Synchronizer: fetchingTotal: -
+2026-01-11 09:56:49: Synchronizer: Total folders: 1
+2026-01-11 09:56:49: Synchronizer: Total notes: 59
+2026-01-11 09:56:49: Synchronizer: Total resources: 216
+2026-01-11 09:56:49: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 09:56:50: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 09:56:58: SearchEngine: Updating FTS table...
+2026-01-11 09:56:58: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 09:56:58: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 09:56:58: Performance: SearchEngine/syncTables: End at 1603.65s (took 103.2ms)
+2026-01-11 10:00:15: RevisionService: maintenance: Starting...
+2026-01-11 10:00:15: RevisionService: maintenance: Service is enabled
+2026-01-11 10:00:15: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-11 10:00:15: RevisionService: maintenance: Done in 103ms
+2026-01-11 10:00:16: OcrService: Found 0 resources to process...
+2026-01-11 10:00:16: OcrService: 0 resources have been processed.
+2026-01-11 10:01:49: Running background sync on timer...
+2026-01-11 10:01:49: Preparing scheduled sync
+2026-01-11 10:01:49: Starting scheduled sync
+2026-01-11 10:01:49: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768125709514]
+2026-01-11 10:01:49: Synchronizer: Indexing resources...
+2026-01-11 10:01:49: ResourceService::indexNoteResources: Start
+2026-01-11 10:01:49: Performance: ResourceService/indexNoteResources: End at 1895.04s (took 103.6ms)
+2026-01-11 10:01:49: ResourceService::indexNoteResources: Completed
+2026-01-11 10:01:50: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:01:50: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 10:01:50: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:01:50: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 10:01:50: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 10:01:51: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 10:01:51: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 10:01:51: Synchronizer: Sync: finished: Synchronisation finished [1768125709514]
+2026-01-11 10:01:51: Synchronizer: Operations completed: 
+2026-01-11 10:01:51: Synchronizer: fetchingTotal: -
+2026-01-11 10:01:51: Synchronizer: Total folders: 1
+2026-01-11 10:01:51: Synchronizer: Total notes: 59
+2026-01-11 10:01:51: Synchronizer: Total resources: 216
+2026-01-11 10:01:51: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 10:01:52: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 10:01:59: SearchEngine: Updating FTS table...
+2026-01-11 10:01:59: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 10:01:59: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2026-01-11 10:01:59: Performance: SearchEngine/syncTables: End at 1905.14s (took 102.2ms)
+2026-01-11 10:05:16: OcrService: Found 0 resources to process...
+2026-01-11 10:05:16: OcrService: 0 resources have been processed.
+2026-01-11 10:06:51: Running background sync on timer...
+2026-01-11 10:06:51: Preparing scheduled sync
+2026-01-11 10:06:51: Starting scheduled sync
+2026-01-11 10:06:51: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768126011348]
+2026-01-11 10:06:51: Synchronizer: Indexing resources...
+2026-01-11 10:06:51: ResourceService::indexNoteResources: Start
+2026-01-11 10:06:51: Performance: ResourceService/indexNoteResources: End at 2196.87s (took 102.4ms)
+2026-01-11 10:06:51: ResourceService::indexNoteResources: Completed
+2026-01-11 10:06:52: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:06:52: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 10:06:52: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:06:52: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 10:06:52: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 10:06:53: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 10:06:53: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 10:06:53: Synchronizer: Sync: finished: Synchronisation finished [1768126011348]
+2026-01-11 10:06:53: Synchronizer: Operations completed: 
+2026-01-11 10:06:53: Synchronizer: fetchingTotal: -
+2026-01-11 10:06:53: Synchronizer: Total folders: 1
+2026-01-11 10:06:53: Synchronizer: Total notes: 59
+2026-01-11 10:06:53: Synchronizer: Total resources: 216
+2026-01-11 10:06:53: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 10:06:54: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 10:07:01: SearchEngine: Updating FTS table...
+2026-01-11 10:07:01: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 10:07:01: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 10:07:01: Performance: SearchEngine/syncTables: End at 2206.98s (took 103ms)
+2026-01-11 10:10:15: RevisionService: maintenance: Starting...
+2026-01-11 10:10:15: RevisionService: maintenance: Service is enabled
+2026-01-11 10:10:15: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-11 10:10:15: RevisionService: maintenance: Done in 103ms
+2026-01-11 10:10:16: OcrService: Found 0 resources to process...
+2026-01-11 10:10:16: OcrService: 0 resources have been processed.
+2026-01-11 10:11:53: Running background sync on timer...
+2026-01-11 10:11:53: Preparing scheduled sync
+2026-01-11 10:11:53: Starting scheduled sync
+2026-01-11 10:11:53: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768126313068]
+2026-01-11 10:11:53: Synchronizer: Indexing resources...
+2026-01-11 10:11:53: ResourceService::indexNoteResources: Start
+2026-01-11 10:11:53: Performance: ResourceService/indexNoteResources: End at 2498.59s (took 103.2ms)
+2026-01-11 10:11:53: ResourceService::indexNoteResources: Completed
+2026-01-11 10:11:53: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:11:53: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 10:11:53: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:11:53: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 10:11:53: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 10:11:54: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 10:11:54: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 10:11:54: Synchronizer: Sync: finished: Synchronisation finished [1768126313068]
+2026-01-11 10:11:54: Synchronizer: Operations completed: 
+2026-01-11 10:11:54: Synchronizer: fetchingTotal: -
+2026-01-11 10:11:54: Synchronizer: Total folders: 1
+2026-01-11 10:11:54: Synchronizer: Total notes: 59
+2026-01-11 10:11:54: Synchronizer: Total resources: 216
+2026-01-11 10:11:54: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 10:11:55: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 10:12:03: SearchEngine: Updating FTS table...
+2026-01-11 10:12:03: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 10:12:03: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 10:12:03: Performance: SearchEngine/syncTables: End at 2508.7s (took 104.8ms)
+2026-01-11 10:15:16: OcrService: Found 0 resources to process...
+2026-01-11 10:15:16: OcrService: 0 resources have been processed.
+2026-01-11 10:16:54: Running background sync on timer...
+2026-01-11 10:16:54: Preparing scheduled sync
+2026-01-11 10:16:54: Starting scheduled sync
+2026-01-11 10:16:54: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768126614731]
+2026-01-11 10:16:54: Synchronizer: Indexing resources...
+2026-01-11 10:16:54: ResourceService::indexNoteResources: Start
+2026-01-11 10:16:54: Performance: ResourceService/indexNoteResources: End at 2800.25s (took 102ms)
+2026-01-11 10:16:54: ResourceService::indexNoteResources: Completed
+2026-01-11 10:16:55: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:16:55: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 10:16:55: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:16:55: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 10:16:55: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 10:16:56: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 10:16:56: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 10:16:56: Synchronizer: Sync: finished: Synchronisation finished [1768126614731]
+2026-01-11 10:16:56: Synchronizer: Operations completed: 
+2026-01-11 10:16:56: Synchronizer: fetchingTotal: -
+2026-01-11 10:16:56: Synchronizer: Total folders: 1
+2026-01-11 10:16:56: Synchronizer: Total notes: 59
+2026-01-11 10:16:56: Synchronizer: Total resources: 216
+2026-01-11 10:16:56: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 10:16:57: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 10:17:04: SearchEngine: Updating FTS table...
+2026-01-11 10:17:04: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 10:17:04: SearchEngine: Updated FTS table in 3ms. Inserted: 0. Deleted: 0
+2026-01-11 10:17:04: Performance: SearchEngine/syncTables: End at 2810.36s (took 104ms)
+2026-01-11 10:20:15: RevisionService: maintenance: Starting...
+2026-01-11 10:20:15: RevisionService: maintenance: Service is enabled
+2026-01-11 10:20:15: RevisionService: collectRevisions: Created revisions for 0 notes
+2026-01-11 10:20:15: RevisionService: maintenance: Done in 102ms
+2026-01-11 10:20:16: OcrService: Found 0 resources to process...
+2026-01-11 10:20:16: OcrService: 0 resources have been processed.
+2026-01-11 10:21:56: Running background sync on timer...
+2026-01-11 10:21:56: Preparing scheduled sync
+2026-01-11 10:21:56: Starting scheduled sync
+2026-01-11 10:21:56: Synchronizer: Sync: starting: Starting synchronisation to target 7... supportsAccurateTimestamp = false; supportsMultiPut = false} [1768126916690]
+2026-01-11 10:21:56: Synchronizer: Indexing resources...
+2026-01-11 10:21:56: ResourceService::indexNoteResources: Start
+2026-01-11 10:21:56: Performance: ResourceService/indexNoteResources: End at 3102.22s (took 104.5ms)
+2026-01-11 10:21:56: ResourceService::indexNoteResources: Completed
+2026-01-11 10:21:57: Synchronizer: Sync target remote info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:21:57: Synchronizer: Sync target is already setup - checking it...
+2026-01-11 10:21:57: Synchronizer: Sync target local info: {"version":3,"e2ee":{"value":false,"updatedTime":0},"activeMasterKeyId":{"value":"","updatedTime":0},"masterKeys":[],"ppk":{"value":null,"updatedTime":0},"appMinVersion":"3.0.0"}
+2026-01-11 10:21:57: Synchronizer: TaskQueue.stop: syncDownload: waiting for tasks to complete: 0
+2026-01-11 10:21:57: Synchronizer: TaskQueue.stop: syncDownload: Done, waited for 0
+2026-01-11 10:21:58: Synchronizer: supportsDeltaWithItems =  <false>
+2026-01-11 10:21:58: Synchronizer: Sync: fetchingTotal: Fetching delta items from sync target
+2026-01-11 10:21:58: Synchronizer: Sync: finished: Synchronisation finished [1768126916690]
+2026-01-11 10:21:58: Synchronizer: Operations completed: 
+2026-01-11 10:21:58: Synchronizer: fetchingTotal: -
+2026-01-11 10:21:58: Synchronizer: Total folders: 1
+2026-01-11 10:21:58: Synchronizer: Total notes: 59
+2026-01-11 10:21:58: Synchronizer: Total resources: 216
+2026-01-11 10:21:58: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2026-01-11 10:21:59: DecryptionWorker: cannot start because no master key is currently loaded.
+2026-01-11 10:22:06: SearchEngine: Updating FTS table...
+2026-01-11 10:22:06: Updating items_normalized from {"updated_time":1767876333992,"id":"627046b304da4d78a21a787f7c854b2e"}
+2026-01-11 10:22:06: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2026-01-11 10:22:06: Performance: SearchEngine/syncTables: End at 3112.32s (took 104ms)

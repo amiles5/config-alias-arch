@@ -28,6 +28,7 @@
 		],
 		"visible": true
 	},
+	"clipperServer.autoStart": true,
 	"noteVisiblePanes": [
 		"editor",
 		"viewer"
